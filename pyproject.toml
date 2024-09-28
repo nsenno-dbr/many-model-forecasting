@@ -45,3 +45,8 @@ include = [
 exclude = [
     "/tests",
 ]
+
+[tool.hatch.envs.default]
+python = "3.10" 
+type = "virtual"
+path = ".venv"
